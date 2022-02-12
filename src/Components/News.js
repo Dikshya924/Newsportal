@@ -36,7 +36,11 @@ function News() {
         <Flex w="100%" p={8}>
           <Heading fontWeight={500}>News Portal</Heading>
           <Spacer />
-          <InputGroup w="300px">
+          <InputGroup w={{
+            base: "200px",
+            md: "200px",
+            lg: "300px",
+          }}>
             <InputLeftElement
               pointerEvents="auto"
               children={<SearchIcon color="black" />}
