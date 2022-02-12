@@ -69,18 +69,6 @@ function News() {
               </GridItem>
             );
           })}
-
-          {articles.map((article) => {
-            return (
-              <GridItem w="100%" p={4}>
-                <NewsItem
-                  title={article.title}
-                  url={article.url}
-                  urlToImage={article.urlToImage}
-                />
-              </GridItem>
-            );
-          })}
         </Grid>
       </div>
     </div>
